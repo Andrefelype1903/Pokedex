@@ -16,7 +16,6 @@ const fetchPokemon = async (pokemon) => {
     if(APIresponse.status == 200) {
 
         const data = await APIresponse.json();
-    
         return data;
     }
 }
@@ -45,7 +44,7 @@ pokemonNumber.innerHTML = "";
 form.addEventListener('submit', (event) => {
 
     event.preventDefault();
-    
+
     renderPokemon(input.value.toLowerCase());
     input.value = ''
 });
