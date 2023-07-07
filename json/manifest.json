@@ -3,7 +3,8 @@
     "short_name": "Pokedex",
     "icons": [
         {
-            "src": "../image/pokedex-png.png"
+            "src": "../image/pokedex-png.png",
+            "sizes": "192x192"
         }
     ],
 
